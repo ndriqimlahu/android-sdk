@@ -6,9 +6,9 @@
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://github.com/ndriqimlahu/AndroidSDK/issues">Report Bug</a>
+    <a href="https://github.com/ndriqimlahu/android-sdk/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ndriqimlahu/AndroidSDK/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/android-sdk/issues">Request Feature</a>
   </p>
 </p>
 
@@ -88,14 +88,6 @@ There you can see some useful additional screenshots of how the project looks li
 ## License
 
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-**LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
-
-**Mail:** ndriqim_lahu@hotmail.com
 
 
 <!-- SUPPORT -->
