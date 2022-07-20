@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/AndroidSDK.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/AndroidSDK.png" alt="Logo" width="250" height="250">
   <h3 align="center">Android SDK</h3>
   <p align="center">
     Ndriçim Lahu
@@ -70,7 +70,7 @@ In order to open this package project is required to have an Operating System (K
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/AndroidSDK.git
+   git clone https://github.com/ndriqimlahu/android-sdk.git
    ```
 2. Open the repo folder.
 3. After that you can check the package project by opening the programs with extension `.docx` and `pptx` file.
