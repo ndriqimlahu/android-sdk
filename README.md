@@ -1,178 +1,131 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/AndroidSDK.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Android SDK</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://github.com/ndriqimlahu/android-sdk/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/android-sdk/issues">Request Feature</a>
-  </p>
-</p>
+# Android SDK
 
+**Android SDK** is a project that provides a comprehensive guide to understanding, installing, and configuring the tools essential for Android application development. It ensures developers can efficiently establish the required environment for creating, testing, and debugging Android applications. The project highlights best practices for managing SDK packages, maintaining compatibility with Android versions, and configuring the Android Virtual Device for the Android Emulator.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project focuses on every crucial aspect of setting up and managing the Android SDK. From installing Android platforms and tools to configuring the Android Emulator and Virtual Device, it offers a detailed, step-by-step approach to streamline the app development process. Furthermore, it thoroughly explores optimizing the SDK setup for seamless compatibility with various Android versions and devices, ensuring a smooth and efficient development experience.
 
+## Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+This project was created using the following tools:
+- **Kali Linux Terminal**
+- **Microsoft Word**
+- **Microsoft PowerPoint**
 
-The project called `Android SDK` is an package project where Android Software Development is the process by which applications are created for devices running the Android operating system, where these applications are written by programming languages such as Java and Kotlin which use the Android Software Development Kit (SDK). Software Development Kit (SDK) is a collection of software development tools in an installable package. Android SDK is a software development kit which is developed by Google for the Android platform. The Android SDK provides the API library and developer tools needed to build, test, and debug applications for the Android mobile operating system. In this project you can navigate into two types which are “Project_Documentation” and “Project_Presentation”.
+## Prerequisites
 
-This project started from scratch where I worked and completed, also I made some improvements such as the checking of some pre-commands to be executed, downloading of Tools package of the Android SDK, creating of the directory for Android SDK, installing of Unzip and Tools package of the Android SDK, launch of Android SDK Manager and Android versions, installation of Android version and platform, management and creation of the Android Virtual Device, launch of the Android Emulator, listing of Android SDK directory and files and many more things.
+Before starting, ensure the following are installed on your system:
+- **Kali Linux**
+  - Download the [Kali Linux](https://www.kali.org/get-kali/).
+  - Follow the [installation guide](https://www.kali.org/docs/installation/) to install and set it up on your system.
+  - For faster installation, consider using a pre-built virtual machine image.
+- **Microsoft Office**
+  - Download the [Microsoft Office](https://www.microsoft.com/en-us/download/office).
+  - Follow the [installation guide](https://support.microsoft.com/en-us/office/download-install-or-reinstall-microsoft-365-office-2024-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658) to install and set it up correctly.
+  - An active Microsoft 365 subscription or a standalone Office license is required.
 
+## Installation
 
-### Built With
-
-This package project is based on technologies like below:
-
-* Kali Linux
-* Microsoft Word
-* Microsoft PowerPoint
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
-
-
-### Prerequisites
-
-In order to open this package project is required to have an Operating System (Kali Linux) and an Office Pack (Microsoft Word & Microsoft PowerPoint).
-
-
-### Installation
-
-1. Download the code or Clone the repo:
-   ```terminal
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/android-sdk.git
    ```
-2. Open the repo folder.
-3. After that you can check the package project by opening the programs with extension `.docx` and `pptx` file.
+2. Navigate to the repository folder and open the `Files` directory, which contains all necessary project files.
+3. Open the `.docx` and `.pptx` project files using the appropriate tools, such as **Microsoft Word** and **Microsoft PowerPoint**.
+4. Follow the provided instructions within the project files to download, install, and configure the **Android SDK** package on **Kali Linux** accurately.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the package project looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+- Checking the Java version | Searching for Java JDK | Installing Java OpenJDK 17-JRE
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/01-Kontrollimi%20i%20Verzionit%20te%20Java.png" align="top" width="32%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/02-Kerkimi%20per%20Java%20JDK.png" align="top" width="32%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/03-Instalimi%20i%20Java%20OpenJDK%2017-JRE.png" align="top" width="32%" height="auto">
+   <hr>
+</div>
 
-* Java Version Checking
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/01-Kontrollimi%20i%20Verzionit%20te%20Java.png">
+- Downloading Android SDK tools | Creating the directory for the Android SDK
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/04-Instalimi%20i%20tools%20per%20Android%20SDK.png" align="top" width="64%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/05-Krijimi%20i%20direktoriumit%20p%C3%ABr%20android-sdk.png" align="top" width="32%" height="auto">
+   <hr>
+</div>
 
-* Search for Java JDK
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/02-Kerkimi%20per%20Java%20JDK.png">
+- Android SDK directory created | Changing directory in Android SDK
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/06-Direktoriumi%20i%20krijuar%20android-sdk.png" align="top" width="64%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/07-Ndryshimi%20i%20direktoriumit%20ne%20android-sdk.png" align="top" width="32%" height="auto">
+   <hr>
+</div>
 
-* Installing Java OpenJDK 17-JRE
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/03-Instalimi%20i%20Java%20OpenJDK%2017-JRE.png">
+- Moving the Android SDK tools file to the Downloads folder | Android SDK tools file moved to Downloads folder
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/08-Marrja%20e%20fajllit%20tools%20te%20Android%20SDK%20nga%20Downloads.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/09-Fajlli%20tools%20i%20Android%20SDK%20nga%20Downloads.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Installation of tools for Android SDK
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/04-Instalimi%20i%20tools%20per%20Android%20SDK.png">
+- Installing unzip package | Extracting the Android SDK tools file | Changing the directory in the initial phase
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/10-Instalimi%20i%20paketes%20per%20unzip.png" align="top" width="32%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/11-Unzip%20i%20fajllit%20tools%20te%20Android%20SDK.png" align="top" width="32%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/12-Ndryshimi%20i%20direktoriumit%20ne%20fazen%20fillestare.png" align="top" width="32%" height="auto">
+   <hr>
+</div>
 
-* Creating directory for android-sdk
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/05-Krijimi%20i%20direktoriumit%20p%C3%ABr%20android-sdk.png">
+- Opening the Android SDK Manager | Selecting Android SDK tools for installation
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/13-Path%20i%20caktuar%20per%20te%20hapur%20Android%20qe%20vjen%20nga%20Tools.png" align="top" width="32%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/14-Hapja%20me%20sukses%20e%20Android%20SDK%20Manager.png" align="top" width="64%" height="auto">
+   <hr>
+</div>
 
-* Created android-sdk directory
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/06-Direktoriumi%20i%20krijuar%20android-sdk.png">
+- Selecting Android 7.0 (API 24) for installation | Installing Android SDK tools, platform, and version packages
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/15-Zgjedhja%20e%20verzionit%20Android%207.0%20(API%2024)%20per%20Instalim.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/16-Instalimi%20i%20packages%20per%20Android%20SDK%20Tools%2C%20Platform%2C%20Version.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Change directory in android-sdk
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/07-Ndryshimi%20i%20direktoriumit%20ne%20android-sdk.png">
+- Package download and installation phase | Android 7.0 (API 24) was successfully installed
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/17-Faza%20e%20Shkarkimit%20dhe%20Instalimit%20te%20packages.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/18-Android%207.0%20(API%2024)%20i%20Instaluar%20me%20sukses.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Getting the Android SDK tools file from Downloads
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/08-Marrja%20e%20fajllit%20tools%20te%20Android%20SDK%20nga%20Downloads.png">
+- Selecting the Manage AVDs option from the Tools tab | Creating and configuring the Android Virtual Device
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/19-Menaxhimi%20i%20AVDs%20(Android%20Virtual%20Device).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/20-Krijimi%20i%20nje%20Android%20Virtual%20Device%20me%20specifika%20te%20caktuara.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Android SDK tools file from Downloads
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/09-Fajlli%20tools%20i%20Android%20SDK%20nga%20Downloads.png">
+- Configuring the Android Virtual Device launch options | Opening the Android Emulator
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/21-Opsionet%20per%20startim%20te%20Android%20Virtual%20Device.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/22-Startimi%20i%20Android%20Emulator%20permes%20terminal.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Installing the unzip package
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/10-Instalimi%20i%20paketes%20per%20unzip.png">
+- Starting the Android Emulator | Android Emulator started successfully
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/23-Startimi%20i%20Android%20Emulator%20permes%20GUI.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/24-Android%20Emulator%20i%20startuar%20me%20sukses.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Unzip the Android SDK tools file
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/11-Unzip%20i%20fajllit%20tools%20te%20Android%20SDK.png">
+- Applications menu in the Android Emulator | Additional information on the Android Emulator
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/25-Menu%20me%20aplikacione%20ne%20Android%20Emulator.png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/26-Te%20dhena%20nga%20Android%20Emulator.png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Changing the directory in the initial phase
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/12-Ndryshimi%20i%20direktoriumit%20ne%20fazen%20fillestare.png">
+- Additional files that can be found in the Android SDK directory
+<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/27-Fajlla%20shtese%20qe%20mund%20te%20gjenden%20ne%20android-sdk.png" align="top" width="32%" height="auto">
 
-* Fixed path to open Android coming from Tools
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/13-Path%20i%20caktuar%20per%20te%20hapur%20Android%20qe%20vjen%20nga%20Tools.png">
-
-* Successfully opened Android SDK Manager
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/14-Hapja%20me%20sukses%20e%20Android%20SDK%20Manager.png">
-
-* Selection of Android 7.0 (API 24) version for Installation
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/15-Zgjedhja%20e%20verzionit%20Android%207.0%20(API%2024)%20per%20Instalim.png">
-
-* Installation of packages for Android SDK Tools, Platform, and Version
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/16-Instalimi%20i%20packages%20per%20Android%20SDK%20Tools%2C%20Platform%2C%20Version.png">
-
-* Package Download and Installation Phase
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/17-Faza%20e%20Shkarkimit%20dhe%20Instalimit%20te%20packages.png">
-
-* Android 7.0 (API 24) Installed successfully
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/18-Android%207.0%20(API%2024)%20i%20Instaluar%20me%20sukses.png">
-
-* Management of AVDs (Android Virtual Device)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/19-Menaxhimi%20i%20AVDs%20(Android%20Virtual%20Device).png">
-
-* Creation of an Android Virtual Device with certain specifications
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/20-Krijimi%20i%20nje%20Android%20Virtual%20Device%20me%20specifika%20te%20caktuara.png">
-
-* Android Virtual Device startup options
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/21-Opsionet%20per%20startim%20te%20Android%20Virtual%20Device.png">
-
-* Launch Android Emulator via terminal
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/22-Startimi%20i%20Android%20Emulator%20permes%20terminal.png">
-
-* Launch Android Emulator via GUI
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/23-Startimi%20i%20Android%20Emulator%20permes%20GUI.png">
-
-* Android Emulator started successfully
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/24-Android%20Emulator%20i%20startuar%20me%20sukses.png">
-
-* Menu with applications in Android Emulator
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/25-Menu%20me%20aplikacione%20ne%20Android%20Emulator.png">
-
-* Data from Android Emulator
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/26-Te%20dhena%20nga%20Android%20Emulator.png">
-
-* Additional files that can be found in android-sdk
-<img src="https://raw.githubusercontent.com/ndriqimlahu/android-sdk/main/Preview/27-Fajlla%20shtese%20qe%20mund%20te%20gjenden%20ne%20android-sdk.png">
-
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
 ## Support
 
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+If you find this project useful, please consider giving it a star!
